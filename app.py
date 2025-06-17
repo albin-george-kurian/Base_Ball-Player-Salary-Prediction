@@ -15,7 +15,7 @@ def user_report():
   team = st.sidebar.slider('Team', 0,30, 1 )
   position = st.sidebar.slider('Position', 0,10, 1 )
   country = st.sidebar.slider('Country', 0,3, 1 )
-  draft_year = st.sidebar.number_input('Draft Year', min_value=2000, max_value=2020, value=2000, step=1)
+  draft_year = st.sidebar.number_input('Draft Year', value=2000, step=1)
   draft_round = st.sidebar.slider('Draft Round', 1,10, 1)
   draft_peak = st.sidebar.slider('Draft Peak', 1,30, 1)
 
